@@ -9,3 +9,4 @@
 ![](https://github.com/stofly/mgapp/blob/master/Screenshot_20190627_072622_xlr.com.mgapp.jpg)
 ![](https://github.com/stofly/mgapp/blob/master/Screenshot_20190627_072803_xlr.com.mgapp.jpg)
 ![](https://github.com/stofly/mgapp/blob/master/Screenshot_20190627_080638_xlr.com.mgapp.jpg)
+![](https://github.com/stofly/mgapp/blob/master/Screenshot_20190705_190321_xlr.com.mgapp.jpg)
