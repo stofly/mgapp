@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:background="#fff"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+    <TextView
+            android:id="@+id/_tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="考题"
+            android:textSize="25sp"/>
+
+    <LinearLayout
+            android:id="@+id/ll_chosses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+    >
+        <CheckBox
+                android:id="@+id/_cb_option_a"
+                android:layout_width="348dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:text="A"
+                android:textSize="22sp"
+        />
+        <CheckBox
+                android:id="@+id/_cb_option_b"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:text="B"
+                android:textSize="22sp"
+        />
+        <CheckBox
+                android:id="@+id/_cb_option_c"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:text="C"
+                android:textSize="22sp"
+        />
+        <CheckBox
+                android:id="@+id/_cb_option_d"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="D"
+                android:textSize="22sp"
+        />
+    </LinearLayout>
+
+    <RadioGroup
+            android:id="@+id/_rg_base"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp">
+
+        <RadioButton
+                    android:id="@+id/_rb_option_a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@drawable/ic_choosea"
+                    android:textSize="18sp"/>
+
+        <RadioButton
+                android:id="@+id/_rb_option_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:button="@null"
+                android:drawableLeft="@drawable/ic_choosea"
+                android:textSize="18sp"/>
+
+        <RadioButton
+                android:id="@+id/_rb_option_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:button="@null"
+                android:drawableLeft="@drawable/ic_choosea"
+                android:textSize="18sp"/>
+
+
+        <RadioButton
+                android:id="@+id/_rb_option_d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:button="@null"
+                android:drawableLeft="@drawable/ic_choosea"
+                android:textSize="18sp"/>
+    </RadioGroup>
+</LinearLayout>

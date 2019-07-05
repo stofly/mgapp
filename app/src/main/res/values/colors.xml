@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="colorPrimary">#87cefa</color>
+    <color name="colorPrimaryDark">#87cefa</color>
+    <color name="colorAccent">#87cefa</color>
+    <color name="colorbg">#CCCCCC</color>
+
+
+    <color name="HomeColor">#4db2f1</color>
+
+    <!--<color name="primary">#2ca839</color>-->
+    <!--<color name="primary_dark">#21932d</color>-->
+    <!--<color name="primary_darker">#1b8e27</color>-->
+    <color name="primary">#666666</color>
+    <color name="primary_dark">#666666</color>
+    <color name="primary_darker">#663366</color>
+    <color name="accent">#FFFFFF</color>
+
+    <color name="black">#000000</color>
+    <color name="jet">#222222</color>
+    <color name="oil">#333333</color>
+    <color name="monsoon">#777777</color>
+    <color name="jumbo">#888888</color>
+    <color name="aluminum">#999999</color>
+    <color name="base">#AAAAAA</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
+
+
+    <!-- 描边颜色 -->
+    <color name="border_clo">#ccc</color>
+    <color name="text_clo">#333</color>
+    <color name="blue">#419DE4</color>
+
+
+</resources>
