@@ -3,4 +3,10 @@
 # 主要技术
 全部都是用最基础的activity和Fragment写的，用了okgo的网络框架其他貌似没啥的了
 # 图片讲解
-![](img_url)
+![](https://github.com/stofly/mgapp/blob/master/Screenshot_20190627_072558_xlr.com.mgapp.jpg)
+![](https://github.com/stofly/mgapp/blob/master/Screenshot_20190627_072605_xlr.com.mgapp.jpg)
+![](https://github.com/stofly/mgapp/blob/master/Screenshot_20190627_072616_xlr.com.mgapp.jpg)
+![](https://github.com/stofly/mgapp/blob/master/Screenshot_20190627_072622_xlr.com.mgapp.jpg)
+![](https://github.com/stofly/mgapp/blob/master/Screenshot_20190627_072803_xlr.com.mgapp.jpg)
+![](https://github.com/stofly/mgapp/blob/master/Screenshot_20190627_080638_xlr.com.mgapp.jpg)
+![](https://github.com/stofly/mgapp/blob/master/Screenshot_20190705_190321_xlr.com.mgapp.jpg)
