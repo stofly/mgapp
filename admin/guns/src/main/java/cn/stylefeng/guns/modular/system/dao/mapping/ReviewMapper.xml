@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.stylefeng.guns.modular.system.dao.ReviewMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.stylefeng.guns.modular.system.model.Review">
+        <id column="id" property="id" />
+        <result column="rtitle" property="rtitle" />
+        <result column="rauthor" property="rauthor" />
+        <result column="fromsour" property="fromsour" />
+        <result column="rdate" property="rdate" />
+        <result column="rorder" property="rorder" />
+        <result column="rurl" property="rurl" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, rtitle, rauthor, fromsour, rdate, rorder, rurl
+    </sql>
+
+</mapper>

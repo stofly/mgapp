@@ -1,0 +1,28 @@
+@layout("/common/_container.html"){
+<div class="ibox float-e-margins">
+    <div class="ibox-content">
+        <div class="form-horizontal">
+
+            <div class="row">
+                <div class="col-sm-6 b-r">
+                            <#input id="id" name="用户题目编号" value="${item.id}" underline="true"/>
+                            <#input id="uiid" name="用户编号" value="${item.uiid}" />
+                </div>
+
+                <div class="col-sm-6">
+                            <#input id="qid" name="题目编号" value="${item.qid}" />
+                </div>
+            </div>
+
+            <div class="row btn-group-m-t">
+                <div class="col-sm-10">
+                    <#button btnCss="info" name="提交" id="ensure" icon="fa-check" clickFun="UqInfoDlg.editSubmit()"/>
+                    <#button btnCss="danger" name="取消" id="cancel" icon="fa-eraser" clickFun="UqInfoDlg.close()"/>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script src="${ctxPath}/static/modular/uq/uq/uq_info.js"></script>
+@}

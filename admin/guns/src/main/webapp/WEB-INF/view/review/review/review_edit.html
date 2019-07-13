@@ -1,0 +1,32 @@
+@layout("/common/_container.html"){
+<div class="ibox float-e-margins">
+    <div class="ibox-content">
+        <div class="form-horizontal">
+
+            <div class="row">
+                <div class="col-sm-6 b-r">
+                            <#input id="id" name="编号" value="${item.id}" underline="true"/>
+                            <#input id="rtitle" name="时评标题" value="${item.rtitle}" underline="true"/>
+                            <#input id="rauthor" name="时评作者" value="${item.rauthor}" underline="true"/>
+                            <#input id="fromsour" name="时评来源" value="${item.fromsour}" />
+                </div>
+
+                <div class="col-sm-6">
+                            <#input id="rdate" name="时评时间" value="${item.rdate}" underline="true"/>
+                            <#input id="rorder" name="时评顺序" value="${item.rorder}" underline="true"/>
+                            <#input id="rurl" name="时评链接" value="${item.rurl}" />
+                </div>
+            </div>
+
+            <div class="row btn-group-m-t">
+                <div class="col-sm-10">
+                    <#button btnCss="info" name="提交" id="ensure" icon="fa-check" clickFun="ReviewInfoDlg.editSubmit()"/>
+                    <#button btnCss="danger" name="取消" id="cancel" icon="fa-eraser" clickFun="ReviewInfoDlg.close()"/>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script src="${ctxPath}/static/modular/review/review/review_info.js"></script>
+@}

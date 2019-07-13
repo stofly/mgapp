@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.stylefeng.guns.modular.system.dao.QuestionMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.stylefeng.guns.modular.system.model.Question">
+        <id column="id" property="id" />
+        <result column="type" property="type" />
+        <result column="title" property="title" />
+        <result column="optiona" property="optiona" />
+        <result column="optionb" property="optionb" />
+        <result column="optionc" property="optionc" />
+        <result column="optiond" property="optiond" />
+        <result column="tips" property="tips" />
+        <result column="answer" property="answer" />
+        <result column="explain" property="explain" />
+        <result column="kind" property="kind" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, type, title, optiona, optionb, optionc, optiond, tips, answer, explain, kind
+    </sql>
+
+</mapper>
